@@ -67,12 +67,20 @@ export default function Home() {
           </svg>
           Pratowise
         </div>
-        <a
-          href="#lista"
-          className="rounded-full bg-lilac px-4 py-2 text-sm font-bold text-plum"
-        >
-          Lista de espera
-        </a>
+        <div className="flex items-center gap-2">
+          <a
+            href="/app"
+            className="rounded-full bg-plum px-4 py-2 text-sm font-bold text-white"
+          >
+            Experimentar o app
+          </a>
+          <a
+            href="#lista"
+            className="hidden rounded-full bg-lilac px-4 py-2 text-sm font-bold text-plum sm:inline-block"
+          >
+            Lista de espera
+          </a>
+        </div>
       </header>
 
       <main>
